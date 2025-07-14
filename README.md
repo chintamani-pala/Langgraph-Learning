@@ -61,6 +61,14 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
 
 - `fundamental/3_prompt_chaining_workflow.ipynb` illustrates chaining prompts and processing outputs in a graph.
 
+### Batsman Parallel Workflow
+
+- `fundamental/4_batsman_parallel_workflow.ipynb` demonstrates parallel computation in LangGraph by calculating multiple cricket statistics (strike rate, balls per boundary, boundary percentage) in parallel nodes and summarizing the results. Shows how to use partial state updates for parallel workflows.
+
+### Parallel LLM Workflow
+
+- `fundamental/5_parallel_llm_workflow.ipynb` showcases a parallel evaluation of an essay using Google Gemini. Multiple aspects (language, analysis, clarity) are evaluated in parallel nodes, and results are aggregated and summarized. Demonstrates structured output and advanced graph design for LLM-based feedback.
+
 ---
 
 ## 📚 Learning Goals
