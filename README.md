@@ -67,7 +67,7 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
 
 ### Parallel LLM Workflow
 
-- `fundamental/5_parallel_llm_workflow.ipynb` showcases a parallel evaluation of an essay using Google Gemini. Multiple aspects (language, analysis, clarity) are evaluated in parallel nodes, and results are aggregated and summarized. Demonstrates structured output and advanced graph design for LLM-based feedback.
+- `fundamental/5_parallel_llm_workflow.ipynb` showcases a parallel evaluation of an essays using Google Gemini. Multiple aspects (language, analysis, clarity) are evaluated in parallel nodes, and results are aggregated and summarized. Demonstrates structured output and advanced graph design for LLM-based feedback.
 
 ---
 
