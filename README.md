@@ -13,6 +13,8 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
   - `1_bmi_workflow.ipynb`: Example workflow for calculating BMI using LangGraph nodes and edges.
   - `2_simple_llm_workflow.ipynb`: Demonstrates a basic LLM workflow using LangGraph.
   - `3_prompt_chaining_workflow.ipynb`: Shows how to chain prompts and process outputs in a graph structure.
+  - `4_batsman_parallel_workflow.ipynb`: Parallel computation of cricket statistics (strike rate, boundary %, etc.).
+  - `5_parallel_llm_workflow.ipynb`: Parallel evaluation of essay components using Google Gemini.
 
 ---
 
