@@ -15,6 +15,8 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
   - `3_prompt_chaining_workflow.ipynb`: Shows how to chain prompts and process outputs in a graph structure.
   - `4_batsman_parallel_workflow.ipynb`: Parallel computation of cricket statistics (strike rate, boundary %, etc.).
   - `5_parallel_llm_workflow.ipynb`: Parallel evaluation of essay components using Google Gemini.
+  - `6_quadratic_equation_conditional_workflow.ipynb`: Conditional branching in LangGraph based on the discriminant of a quadratic equation.
+  - `7_review_reply_conditional_workflow.ipynb`: Sentiment-based conditional workflow to generate AI responses to positive or negative product reviews.
 
 ---
 
@@ -71,6 +73,14 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
 
 - `fundamental/5_parallel_llm_workflow.ipynb` showcases a parallel evaluation of an essays using Google Gemini. Multiple aspects (language, analysis, clarity) are evaluated in parallel nodes, and results are aggregated and summarized. Demonstrates structured output and advanced graph design for LLM-based feedback.
 
+### Quadratic Equation Conditional Workflow
+
+- `fundamental/6_quadratic_equation_conditional_workflow.ipynb` evaluates a quadratic equation using conditional logic in LangGraph. Based on the discriminant, the graph follows different paths to output either real or imaginary root handling. Demonstrates use of branching and formatting in a mathematical context.
+
+### Review Reply Conditional Workflow
+
+- `fundamental/7_review_reply_conditional_workflow.ipynb` processes product reviews and uses LLM sentiment classification to conditionally generate responses. Positive and negative reviews are handled with different node paths. Great example of combining logic and LLM outputs for automated customer support or feedback systems.
+
 ---
 
 ## 📚 Learning Goals
@@ -78,6 +88,8 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
 - Understand graph-based workflow design for AI applications.
 - Learn prompt chaining and output processing.
 - Integrate LLMs and external tools in graph nodes.
+- Experiment with agent-based and multi-step reasoning.
+- Build workflows that branch dynamically using conditions.
 - Experiment with agent-based and multi-step reasoning.
 
 ---
