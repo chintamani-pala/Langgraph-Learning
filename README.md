@@ -17,6 +17,7 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
   - [`5_parallel_llm_workflow.ipynb`](fundamental/5_parallel_llm_workflow.ipynb): Parallel evaluation of essay components using Google Gemini.
   - [`6_quadratic_equation_conditional_workflow.ipynb`](fundamental/6_quadratic_equation_conditional_workflow.ipynb): Conditional branching in LangGraph based on the discriminant of a quadratic equation.
   - [`7_review_reply_conditional_workflow.ipynb`](fundamental/7_review_reply_conditional_workflow.ipynb): Sentiment-based conditional workflow to generate AI responses to positive or negative product reviews.
+  - [`8_post_generator_iterative_workflow.ipynb`](fundamental/8_post_generator_iterative_workflow.ipynb): This project implements an iterative workflow using LangGraph to generate and refine social media posts (specifically tweets).
 
 ---
 
@@ -80,6 +81,14 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
 ### Review Reply Conditional Workflow
 
 - [`fundamental/7_review_reply_conditional_workflow.ipynb`](fundamental/7_review_reply_conditional_workflow.ipynb) processes product reviews and uses LLM sentiment classification to conditionally generate responses. Positive and negative reviews are handled with different node paths. Great example of combining logic and LLM outputs for automated customer support or feedback systems.
+
+### Post Generator Iterative Workflow
+
+- [`fundamental/8_post_generator_iterative_workflow.ipynb`](fundamental/8_post_generator_iterative_workflow.ipynb): This project implements an iterative workflow using LangGraph to generate and refine social media posts (specifically tweets). It involves three main nodes:
+  - **Generate Tweet**: An LLM (Google Gemini) generates an initial tweet based on a given topic.
+  - **Evaluate Tweet**: Another LLM (Google Gemini, with structured output for evaluation and feedback) critically assesses the generated tweet for humor, originality, virality, and format.
+  - **Optimize Tweet**: If the tweet needs improvement, a third LLM (Google Gemini) takes the feedback and refines the tweet for a new iteration.
+    The workflow includes conditional branching to either approve the tweet or send it back for optimization, with a set maximum number of iterations. This demonstrates an advanced pattern for automated content creation and refinement.
 
 ---
 
