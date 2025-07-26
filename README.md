@@ -18,6 +18,7 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
   - [`6_quadratic_equation_conditional_workflow.ipynb`](fundamental/6_quadratic_equation_conditional_workflow.ipynb): Conditional branching in LangGraph based on the discriminant of a quadratic equation.
   - [`7_review_reply_conditional_workflow.ipynb`](fundamental/7_review_reply_conditional_workflow.ipynb): Sentiment-based conditional workflow to generate AI responses to positive or negative product reviews.
   - [`8_post_generator_iterative_workflow.ipynb`](fundamental/8_post_generator_iterative_workflow.ipynb): This project implements an iterative workflow using LangGraph to generate and refine social media posts (specifically tweets).
+  - [`9_basic_chatbot.ipynb`](fundamental/9_basic_chatbot.ipynb): A minimal chatbot built using LangGraph, integrating memory, message formatting, and Gemini for basic conversational flow.
 
 ---
 
@@ -89,6 +90,10 @@ It is designed for learners and developers interested in exploring LLMs, prompt 
   - **Evaluate Tweet**: Another LLM (Google Gemini, with structured output for evaluation and feedback) critically assesses the generated tweet for humor, originality, virality, and format.
   - **Optimize Tweet**: If the tweet needs improvement, a third LLM (Google Gemini) takes the feedback and refines the tweet for a new iteration.
     The workflow includes conditional branching to either approve the tweet or send it back for optimization, with a set maximum number of iterations. This demonstrates an advanced pattern for automated content creation and refinement.
+
+### Basic Chatbot with LangGraph
+
+- [`fundamental/9_basic_chatbot.ipynb`](fundamental/9_basic_chatbot.ipynb) creates a simple conversational agent using LangGraph and Gemini. It defines a message history, formats user/AI messages, and handles turn-based chat using a LangGraph workflow. Demonstrates structured memory integration and minimal agent-like interaction using a graph.
 
 ---
 
